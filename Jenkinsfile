@@ -52,8 +52,17 @@ stage('pushing Image into docker-hub') {
                 script {
                     // Push the Docker image to the registry
                     docker.withRegistry('', registryCredential) {
-                        docker.image("${dockerImage}").push()
+                        docker.image("${dockerImage}:${IMAGE_TAG}").push()
                     }
+                }
+            }
+        }
+stage('Deploy Application into a container') {
+            steps {
+                script {
+                    // Run the Docker container
+                    docker.image("${dockerImage}:${IMAGE_TAG}").run("-p 8000:8761 --name javap")
+
                 }
             }
         }
