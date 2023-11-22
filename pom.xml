@@ -16,7 +16,7 @@
         <properties>
                 <java.version>11</java.version>
                 <spring-cloud.version>2021.0.7</spring-cloud.version>
-                <sonar.host.url>http://18.116.14.222:8082/</sonar.host.url>
+                <sonar.host.url>http://18.118.149.214:8082/</sonar.host.url>
                 <sonar.login>sqa_5f39c03ee1497c89ee265149ac654b3eea0057fd</sonar.login>
         </properties>
         <dependencies>
@@ -40,13 +40,13 @@
             <repository>
               <id>nexus</id>
               <name>Java-springboot-app</name>
-              <url>http://18.116.14.222:8083/repository/Java-springboot-app/</url>
+              <url>http://18.118.149.214:8083/repository/Java-springboot-app/</url>
             </repository>
             
             <!--<snapshotRepository>
               <id>nexus</id>
               <name>java-springboot-snapshot</name>
-              <url>http://18.116.14.222:8083/repository/Java-springboot-snapshot/</url>
+              <url>http://18.118.149.214:8083/repository/Java-springboot-snapshot/</url>
             </snapshotRepository>-->
             
         </distributionManagement>
