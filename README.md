@@ -36,6 +36,6 @@ The final stage involves deploying the application as a Docker container. This c
 
 ### Benefits:
 Efficiency Quality Assurance, Artifact Management, Containerization, CollaborationProject 
-### Skills: 
+## Skills: 
 Sonarqube · Nexus · Maven · Docker · Jenkins · Amazon Web Services (AWS)
 
