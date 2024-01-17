@@ -13,7 +13,7 @@ In This Repo you Jenkinsfile and Dockerfile added.
 This project aims to establish a robust and automated Continuous Integration and Deployment (CI/CD) pipeline for Java-based Microservice applications. The pipeline ensures seamlessly integrating code changes, performing static code analysis, managing dependencies, and deploying applications in Docker containers.
 
 ## Pipeline Stages:
-### Stage 1: Code Checkout from GitHub
+### Stage 1:- Code Checkout from GitHub
 The pipeline begins by fetching the latest code changes from the GitHub repository. This ensures that the CI/CD process operates on the most up-to-date codebase.
 
 ### Stage 2: Maven Package Build
