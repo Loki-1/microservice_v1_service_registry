@@ -1,4 +1,4 @@
-# microservice_v1_service_registry
+# microservice_v1_service_registry.
 
 ## Spring Boot Application Pipeline
 
@@ -25,10 +25,10 @@ The code undergoes a comprehensive static code analysis using SonarQube. This st
 ### Stage 4: Artifacts Upload to Nexus Repository
 The built artifacts are uploaded to a Nexus repository, providing a centralized location for managing and versioning artifacts. This stage ensures artifact traceability and easy access for future deployments.
 
-### Stage 5: Docker Image Build
+### Stage 5:- Docker Image Build
 The application package is encapsulated into a Docker image, streamlining the deployment process and ensuring consistency across various environments. 
 
-### Stage 6: Docker Image Push to Docker Hub
+### Stage 6:- Docker Image Push to Docker Hub
 The Docker image is pushed to Docker Hub, making it accessible for deployment on different systems.
  
 ### Stage 7: Application Deployment as Docker Container
