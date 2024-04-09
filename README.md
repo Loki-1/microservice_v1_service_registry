@@ -34,7 +34,7 @@ The Docker image is pushed to Docker Hub, making it accessible for deployment on
 ### Stage 7: Application Deployment as Docker Container
 The final stage involves deploying the application as a Docker container. This containerized deployment ensures consistency, scalability, and easy management of the application in diverse environments.
 
-### Benefits:
+### Benefits:-
 Efficiency Quality Assurance, Artifact Management, Containerization, CollaborationProject 
 ## Skills:-
 Sonarqube · Nexus · Maven · Docker · Jenkins · Amazon Web Services (AWS)
