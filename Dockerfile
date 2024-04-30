@@ -9,4 +9,4 @@ RUN yum install java-11-openjdk -y
 RUN yum install wget -y
 RUN yum install runc -y
 CMD ["java","-jar","javaproject.jar"]
-EXPOSE 800.
+EXPOSE 8000
